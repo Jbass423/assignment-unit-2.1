@@ -8,8 +8,8 @@ console.log(Lastname);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullname = "Joshua Bass ";
-console.log("fullname is Joshua Bass")
+let fullName =  "Joshua Bass";
+console.log("fullName");
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckynumber = 23;
@@ -19,28 +19,42 @@ console.log("luckynumber is ", 23);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction= 'my name is ' +fullname+ ' and i think ' +luckynumber+ " is a winner";
-console.log(introduction);
+let introduction= 'my name is ' +fullName+ ' and i think ' +luckynumber+ " is a winner";
+console.log("introduction");
   
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-
+let adventurous= false ;
+console.log("adventurous");
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-
+let food= "steak";
+console.log(food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-
+let pets= 4;
+console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendpets= 3;
 
 // 10 - Add two pets to your `pets` variable
-
+pets +=2 ; 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+let allowedpets = 8;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result="how about we stay home ";
+
+if (adventurous===true) { console.log("adeventures are great")
+  
+}
+  
+ else  { console.log("result");
+  
+};
+console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
