@@ -23,7 +23,7 @@ console.log("introduction");
   
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous= true;
+let adventurous= false;
 console.log("adventurous");
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
@@ -58,9 +58,9 @@ console.log(result);
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 let diceRoll= "Try again later.";
-if ( luckyNumber==23 && adventurous==true) {diceRoll="Roll the dice!"
+if ( luckyNumber==23 && adventurous==true) {diceRoll= "Roll the dice!"
   
-} else { diceRoll
+} else { diceRoll;
   
 }
 console.log(diceRoll);
@@ -74,10 +74,11 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
   let petStatus ;
-if (pets=>allowedPets) { petStatus="I can have more pets"
+if (pets=>allowedPets) {console.log (petStatus="I can have more pets"
   
-} else if (pets==allowedPets) {petStatus="I have enough pets"}
-else (pets<=allowedPets)   ;
+);} if (pets==allowedPets) {console.log (petStatus="I have enough pets");}
+else (pets<allowedPets) 
+
 console.log(petStatus);
 // STRETCH GOALS:
 
@@ -86,6 +87,13 @@ console.log(petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets ;
+if (pets<friendsPets) {mostPets= 4
+  
+} else {mostPets= 6}
+
+console.log(mostPets);
+  
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
