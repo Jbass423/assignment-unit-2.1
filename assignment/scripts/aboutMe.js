@@ -11,19 +11,19 @@ let fullName =  firstName+lastName;
 console.log("fullName");
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 23;
-console.log(luckyNumber);
+let luckyNumber = 23 ;
+console.log(luckyNumber, 23);
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction= 'my name is ' +fullName+ ' and i think ' +luckyNumber+ " is a winner";
+let introduction = 'My name is ' +fullName+ ', and i think ' +luckyNumber+ " is a winner!";
 console.log("introduction");
   
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous= false;
+let adventurous= true;
 console.log("adventurous");
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
@@ -58,9 +58,9 @@ console.log(result);
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 let diceRoll= "Try again later.";
-if ( luckyNumber=23  && adventurous==true) {diceRoll="Roll the dice!"
+if ( luckyNumber==23 && adventurous==true) {diceRoll="Roll the dice!"
   
-} else {
+} else { diceRoll
   
 }
 console.log(diceRoll);
@@ -73,7 +73,12 @@ console.log(diceRoll);
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
-
+  let petStatus ;
+if (pets=>allowedPets) { petStatus="I can have more pets"
+  
+} else if (pets==allowedPets) {petStatus="I have enough pets"}
+else (pets<=allowedPets)   ;
+console.log(petStatus);
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
