@@ -1,14 +1,15 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = 'Joshua';
+let firstName = ' Joshua ';
 console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = `Bass`;
+let lastName = ` Bass `;
+console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = firstName + lastName;
-console.log("fullName");
+console.log(fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 23;
@@ -19,7 +20,7 @@ console.log(luckyNumber, 23);
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 let introduction = 'My name is ' + fullName + ', and i think ' + luckyNumber + " is a winner!";
-console.log("introduction");
+console.log(introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
@@ -53,6 +54,7 @@ if (adventurous == true) {
 
 }
 console.log(result);
+// ifelse statment using a boolan 
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
@@ -68,6 +70,8 @@ if (luckyNumber == 23 && adventurous == true) {
 
 }
 console.log(diceRoll);
+// diceRoll compond set using luckyNumber and adventurous
+
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -79,12 +83,12 @@ console.log(diceRoll);
 
 let petStatus;
 if (pets >= allowedPets) {
-  petStatus = "I have enough pets" 
+  petStatus = "I have enough pets"
 
 } else if (pets == allowedPets) {
   petStatus = "Oh no, I have too many pets!"
 }
-else  {
+else {
   petStatus = "I can have more pets"
 }
 
@@ -113,25 +117,29 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-let luckyResult;
-switch (luckyResult) {
-  case value: 1; console.log("frist is the worst");
+let luckyResult; 
+ switch (luckyResult) {
+  case value: 1; ("frist is the worst")
 
     break;
-  case value: 2; console.log("second is the best");
+  case value: 2; ("second is the best");
   default:
-  case value: 3; console.log("third is the one with pola dot dress");
+  case value: 3; ("third is the one with polka dot dress");
     break;
 }
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
-function adventure(togo) {
+function adventure(adventurous) {
   adventurous = true ? "adventures are fun" : "adventures suck"
 
 };
-console.log(adventure);/// to go or not to go 
+console.log(adventure);
+
+
+
+
 
 
 
