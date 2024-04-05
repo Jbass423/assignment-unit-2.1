@@ -101,10 +101,14 @@ console.log(petStatus);
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
-if (pets < friendsPets) {
-  mostPets = 4
+if (pets <= friendsPets) {
+  mostPets = "friend wins"
 
-} else { mostPets = 6 }
+} else if (pets >= friendsPets) {
+  mostPets = "i win"
+} else {
+
+}
 
 console.log(mostPets);
 
