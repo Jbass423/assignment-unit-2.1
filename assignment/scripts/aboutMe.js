@@ -9,7 +9,7 @@ console.log(firstName, "first nane of full name");
 
 let lastName = ` Bass `;
 
-console.log( lastName, 'Last name of full name ' );
+console.log(lastName, 'Last name of full name ');
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
@@ -17,7 +17,7 @@ console.log( lastName, 'Last name of full name ' );
 
 let fullName = firstName + lastName;
 
-console.log( fullName, "variable for full name ");
+console.log(fullName, "variable for full name ");
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
@@ -33,33 +33,33 @@ console.log(luckyNumber, "variable set for luckynumber 23 ");
 //     Console log the value of `introduction`
 let introduction = 'My name is ' + fullName + ', and i think ' + luckyNumber + " is a winner!";
 
-console.log( introduction, "variable of introduction of myself with name and luckynumber" );
+console.log(introduction, "variable of introduction of myself with name and luckynumber");
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 
 let adventurous = false;
 
-console.log( adventurous, "variable for boolean adventurous");
+console.log(adventurous, "variable for boolean adventurous");
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 
 let food = "steak";
 
-console.log( food, "variable for food being steak ");
+console.log(food, "variable for food being steak ");
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
 
 let pets = 4;
 
-console.log( pets, "variable for mumber of pets i own ");
+console.log(pets, "variable for mumber of pets i own ");
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
 let friendsPets = 3;
 
-console.log( friendsPets, "variable for number of pets friend owns");
+console.log(friendsPets, "variable for number of pets friend owns");
 
 // 10 - Add two pets to your `pets` variable
 pets += 2;
@@ -67,7 +67,7 @@ pets += 2;
 
 const allowedPets = 8;
 
-console.log( allowedPets, "number of pets allowed ");
+console.log(allowedPets, "number of pets allowed ");
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
@@ -82,8 +82,8 @@ if (adventurous == true) {
   result = "How about we stay home?"
 
 }
-console.log( result, "variable to tell if adventure is true or false");
- 
+console.log(result, "variable to tell if adventure is true or false");
+
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
@@ -152,8 +152,8 @@ console.log(mostPets, "variable to see who has the most pets ");
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-let luckyResult; 
- switch (luckyResult) {
+let luckyResult;
+switch (luckyResult) {
   case value: 1; ("frist is the worst")
 
     break;
@@ -168,7 +168,6 @@ console.log(luckyResult);
 
 function adventure(adventurous) {
   adventurous = true ? "adventures are fun" : "adventures suck"
-
 };
 console.log(adventure);
 
