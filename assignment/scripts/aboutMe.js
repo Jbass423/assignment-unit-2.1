@@ -17,7 +17,7 @@ console.log(lastName, 'Last name of full name ');
 
 let fullName = firstName + lastName;
 
-console.log(fullName, "variable for full name ");
+console.log(fullName, "variable for full name");
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
@@ -123,7 +123,7 @@ else {
   petStatus = "I can have more pets"
 }
 
-console.log(petStatus);
+console.log(petStatus, " variable to determine if i reached number of allowed pets");
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
